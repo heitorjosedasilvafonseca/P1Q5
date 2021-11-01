@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 double grausC = Double.parseDouble(edtGC.getText().toString());
-                double grausF = (grausC * 1.8) + 32;
+                double grausF = ((grausC * 1.8) + 32);
                 edtGF.setText(String.valueOf(grausF));
             }
         });
